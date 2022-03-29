@@ -1,0 +1,19 @@
+<html>
+<head>
+        <title>Flask Project</title>
+</head>
+<body>
+        <h1>Welcome {{ name }}!</h1>
+        <a href=“www.google.com”>not google</a>
+        <ul>
+        {% for city_name in city_names %}
+                <li>{{city_name}}</li>
+        {% endfor %}
+        </ul>
+	<form>
+		<label for="cname">City Name</label><br>
+		<input type="text" id="cname" maxlength = "32" name="cname"><br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
