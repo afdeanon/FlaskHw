@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import render_template_string
+
 myapp_obj = Flask(__name__)
 @myapp_obj.route("/")
 def home():
@@ -23,4 +23,3 @@ def home():
 </html>
 '''
 
-home()
