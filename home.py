@@ -11,7 +11,7 @@ def home():
         <title>Flask Project</title>
 </head>
 <body>
-        <h1>Welcome ''' + name + '''!</h1>
+        <h1>Welcome ''' + name + '''</h1>
         <a href=“www.google.com”>not google</a>
         <ul>
                 <li>''' + city_names[0] + '''</li>
@@ -22,4 +22,3 @@ def home():
 </body>
 </html>
 '''
-myapp_obj()
