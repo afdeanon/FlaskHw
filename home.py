@@ -22,3 +22,5 @@ def home():
 </body>
 </html>
 '''
+
+home()
