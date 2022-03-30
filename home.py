@@ -23,4 +23,3 @@ def home():
 </body>
 </html>
 '''
-myapp_obj.run()
