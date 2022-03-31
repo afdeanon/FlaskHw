@@ -1,4 +1,4 @@
-from app import myonj
+from app import myobj
 from flask import Flask, flash, render_template
 city_names = ["Paris", "London", "Rome", "Tahiti"]
 @myobj.route("/")
