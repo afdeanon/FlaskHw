@@ -13,7 +13,7 @@ def home():
 </head>
 <body>
         <h1>Welcome ''' + name + '''!</h1>
-	<ahref="www.google.com">not google</a>
+	<a href="https://www.google.com/">not google</a>
         <ul>
                 <li>''' + city_names[0] + '''</li>
                 <li>''' + city_names[1] + '''</li>
@@ -23,3 +23,4 @@ def home():
 </body>
 </html>
 '''
+#myapp_obj.run()
