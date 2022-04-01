@@ -6,4 +6,4 @@ city_names = ["Paris", "London", "Rome", "Tahiti"]
 def home():
 	cities = city_names
 	return render_template('home.html', name = name, city_names = cities)
-
+	

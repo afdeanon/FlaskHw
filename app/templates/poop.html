@@ -2,23 +2,19 @@
   <head lang="en">
   <meta charset="UTF-8">
   <script language="JavaScript">
+
+    document.getElementById('btn').addEventListener('click', openTest);
     function showInput() {
         document.getElementById('display').innerHTML = 
                     document.getElementById("user_input").value;
-        var x = document.getElementById('output');
-        if(x.style.display='none'){
-          x.style.display='block';
-        }
     }
   </script>
 
   </head>
 <body>
-  <div id="output" style="display:none">
-    <ul>
-      <li><span id='display'></li>
-    </ul>
-  </div>
+  <ul>
+    <li>"user_input"</li>
+  <ul>
   <h1>Welcome {{ name }}!</h1>
   <ahref="www.google.com">not google</a>
   <ul>
@@ -29,7 +25,8 @@
   <form action = "poop" method "POST">
     <label>City Name</label><br>
     <input type="text" name="message" id="user_input" maxlength="32"></br>
+    <input type="submit"></br>
   </form>
-  <input type="submit" onclick="showInput();"><br/>
 </body>
 </html>
+
